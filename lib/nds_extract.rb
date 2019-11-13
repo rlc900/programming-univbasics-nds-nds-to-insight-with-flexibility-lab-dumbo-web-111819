@@ -79,7 +79,7 @@ new_hash = {}
  i = 0 
  total = 0 
   while i < collection.length do 
-  #binding.pry
+  binding.pry
    total += collection[i][:worldwide_gross]
    new_hash[collection][i][:studio] = total
    i += 1 
