@@ -106,9 +106,9 @@ def movies_with_directors_set(source)
    # movies_with_director_key(source[i][:name],)
    # new_array << 
     
-     
-    end
-    i += 1 
+     i += 1 
+  
+
   end 
   
   new_array
