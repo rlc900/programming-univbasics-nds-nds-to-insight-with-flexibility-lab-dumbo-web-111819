@@ -81,7 +81,7 @@ new_hash = {}
   while i < collection.length do 
   binding.pry
    total += collection[i][:worldwide_gross]
-   new_hash[collection][i][:studio] = total
+   new_hash[collection[i]][:studio] = total
    i += 1 
   end 
   new_hash
