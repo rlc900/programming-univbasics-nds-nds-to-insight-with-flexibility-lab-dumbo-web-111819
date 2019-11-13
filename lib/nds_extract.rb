@@ -78,7 +78,7 @@ def gross_per_studio(collection)
   new_hash = {}
  # i = 0 
   #while i < collection.length do 
-   #binding.pry
+   binding.pry
    # i += 1 
   #end 
 end
