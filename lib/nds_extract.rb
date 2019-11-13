@@ -80,10 +80,7 @@ new_hash = {}
  total = 0 
   while i < collection.length do 
   binding.pry
-   [:studio_name] = collection[i][:studio]
-   gross = collection[i][:worldwide_gross]
-   new_hash[studio_name] = [total]
-   total += gross 
+   total += collection[i][:worldwide_gross]
    i += 1 
   end 
   new_hash
