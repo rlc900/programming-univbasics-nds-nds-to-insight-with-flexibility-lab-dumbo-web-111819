@@ -88,7 +88,7 @@ def gross_per_studio(collection)
 end
 
 def movies_with_directors_set(source)
- #binding.pry
+ 
   # GOAL: For each director, find their :movies Array and stick it in a new Array
   #
   # INPUT:
@@ -113,6 +113,7 @@ def movies_with_directors_set(source)
     end
     i += 1 
   end 
+  binding.pry
   new_array
 end
 
