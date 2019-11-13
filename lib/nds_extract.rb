@@ -104,10 +104,10 @@ def movies_with_directors_set(source)
   i = 0 
   counter = 0
   while i < source.length do 
-    binding.pry
     new_hash[:director_name] = source[i][:name]
     new_array << new_hash
     while counter < source[i][:movies].length do 
+      binding.pry
       new_hash[:movies] = source[i][:movies]
       new_array << new_hash
       counter += 1 
